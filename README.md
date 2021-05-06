@@ -10,3 +10,6 @@ This is a CLI tool which can generate passwords for you.
 - Choose whether the password should have certain elements or not
 
 # Planned Features
+
+- GUI version
+- Save generated passwords
