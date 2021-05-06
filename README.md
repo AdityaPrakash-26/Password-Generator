@@ -1,6 +1,6 @@
 # Password-Generator
 
-Currently in development.
+Currently in development. Feel free to open issues if you find any bugs or a pull request if you'd like to make a contribution! :D
 
 This is a CLI tool which can generate passwords for you.
 
