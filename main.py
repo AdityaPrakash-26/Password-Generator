@@ -15,3 +15,24 @@ special_alpha = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")",
 
 nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
+length = int(input("What should be the length of your password?"))
+
+choice_array = lower_alpha
+
+password = ""
+
+print("Do you want upper-case characters in your password?(Y/N)")
+upper_choice = input()
+
+print("Do you want special characters in your password?(Y/N)")
+special_choice = input()
+
+print("Do you want numbers in your password?(Y/N)")
+num_choice = input()
+
+if(upper_choice == 'Y'):
+    choice_array.append(upper_alpha)
+if(special_choice == 'Y'):
+    choice_array.append(special_alpha)
+if(num_choice == 'Y'):
+    choice_array.append(nums)
