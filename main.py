@@ -38,6 +38,8 @@ while again!='N':
     if(num_choice == 'Y'):
         choice_array.extend(nums)
 
+    print(choice_array)
+
     print("\nGenerating password\n")
 
     for _ in range(length):
