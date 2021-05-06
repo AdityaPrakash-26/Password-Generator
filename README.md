@@ -1,3 +1,3 @@
 # Password-Generator
 
-Currently a WIP
+This is a CLI tool which can generate passwords for you. Currently in development.
