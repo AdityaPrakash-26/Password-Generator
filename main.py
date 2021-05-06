@@ -31,15 +31,13 @@ print("Do you want numbers in your password?(Y/N)\n")
 num_choice = input()
 
 if(upper_choice == 'Y'):
-    choice_array.append(upper_alpha)
+    choice_array.extend(upper_alpha)
 if(special_choice == 'Y'):
-    choice_array.append(special_alpha)
+    choice_array.extend(special_alpha)
 if(num_choice == 'Y'):
-    choice_array.append(nums)
+    choice_array.extend(nums)
 
 print("\nGenerating password\n")
-
-print(choice_array)
 
 for _ in range(length):
     x = random.choice(choice_array)
