@@ -15,9 +15,11 @@ special_alpha = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")",
 
 nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 again = 'Y'
+
 while again!='N':
     length = int(input("What should be the length of your password?\n"))
 
+    choice_array.clear()
     choice_array = lower_alpha
 
     password = ""
